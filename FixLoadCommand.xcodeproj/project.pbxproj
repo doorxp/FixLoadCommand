@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1DDC31FF1F2F11CF006518E9 /* mh */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mh; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDC31FF1F2F11CF006518E9 /* FixLoadCommand */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FixLoadCommand; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DDC32021F2F11CF006518E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		1DDC32001F2F11CF006518E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1DDC31FF1F2F11CF006518E9 /* mh */,
+				1DDC31FF1F2F11CF006518E9 /* FixLoadCommand */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1DDC31FE1F2F11CF006518E9 /* mh */ = {
+		1DDC31FE1F2F11CF006518E9 /* FixLoadCommand */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DDC32061F2F11CF006518E9 /* Build configuration list for PBXNativeTarget "mh" */;
+			buildConfigurationList = 1DDC32061F2F11CF006518E9 /* Build configuration list for PBXNativeTarget "FixLoadCommand" */;
 			buildPhases = (
 				1DDC31FB1F2F11CF006518E9 /* Sources */,
 				1DDC31FC1F2F11CF006518E9 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = mh;
+			name = FixLoadCommand;
 			productName = mh;
-			productReference = 1DDC31FF1F2F11CF006518E9 /* mh */;
+			productReference = 1DDC31FF1F2F11CF006518E9 /* FixLoadCommand */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1DDC31FA1F2F11CF006518E9 /* Build configuration list for PBXProject "mh" */;
+			buildConfigurationList = 1DDC31FA1F2F11CF006518E9 /* Build configuration list for PBXProject "FixLoadCommand" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1DDC31FE1F2F11CF006518E9 /* mh */,
+				1DDC31FE1F2F11CF006518E9 /* FixLoadCommand */,
 			);
 		};
 /* End PBXProject section */
@@ -245,7 +245,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DDC31FA1F2F11CF006518E9 /* Build configuration list for PBXProject "mh" */ = {
+		1DDC31FA1F2F11CF006518E9 /* Build configuration list for PBXProject "FixLoadCommand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DDC32041F2F11CF006518E9 /* Debug */,
@@ -254,7 +254,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DDC32061F2F11CF006518E9 /* Build configuration list for PBXNativeTarget "mh" */ = {
+		1DDC32061F2F11CF006518E9 /* Build configuration list for PBXNativeTarget "FixLoadCommand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DDC32071F2F11CF006518E9 /* Debug */,
